@@ -1,0 +1,2 @@
+# Ejercicio-Ruby
+Ejercicio ruby 
