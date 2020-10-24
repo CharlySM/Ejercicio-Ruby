@@ -24,7 +24,7 @@ doc.search('.product dd').map do |element|
 	cont=cont+1
 end
 
-var = 0  
+var = 0
 
 
 html1=open("https://www.port-monitor.com/plans-and-pricing").read
@@ -32,7 +32,7 @@ html1=open("https://www.port-monitor.com/plans-and-pricing").read
 doc1=Nokogiri::HTML(html)
 cont = 0
 n = 0
-#Aqui conseguimos el precio de los productos desde la pagina html 
+#Aqui conseguimos el precio de los productos desde la pagina html
 doc1.search('p a').map do |element|
 	precio=element.inner_text
 	if (cont%2)==0 and (cont/array.length)!=2
@@ -57,7 +57,7 @@ end
 
 #impresion de los datos de los productos
 var1 = 0
-while var1 < array.size() 
+while var1 < array.size()
 	array[var1].each do |key, valor|
   		puts "#{key}: "
   		puts valor
