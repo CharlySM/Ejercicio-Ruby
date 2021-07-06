@@ -1,2 +1,3 @@
 # Ejercicio-Ruby
-Ejercicio ruby 
+Ejercicio ruby
+Pruebas de ruby
